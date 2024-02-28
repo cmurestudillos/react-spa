@@ -1,0 +1,92 @@
+/* Estilos Generales */
+.main-container {
+  margin: 20px;
+}
+
+body {
+  padding-bottom: 50px;
+  background: rgb(251,136,136);
+  background: linear-gradient(90deg, rgba(251,136,136,1) 0%, rgba(100,217,247,1) 0%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);    
+}
+
+
+/* Animaciones */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.navbar{
+  display: flex;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.nav-link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand img{
+  margin: 10px;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+.btn {
+  flex: 1 1 auto;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: 1px solid #61dbfb !important;
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #80c7d0 0%, #c2f0fb 51%, #61dbfb 100%);
+}
+
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+
+.footer {
+  width: 100%;
+  color: white;
+}
+
+.footer p{
+  font-size: 14px;
+  margin: 10px;
+  text-align: center;
+}
